@@ -90,13 +90,18 @@ classdef globalOpt < Opt
         
         switch identifier
 
-            case 'ondrej@aviendha'
-                opt.resDir = '~/CNresults/res';
-                opt.tmpDir = '~/CNresults/tmp';
+            case 'idvllab@IDVLs-MacBook-Pro.local'
+                opt.resDir = '~/Documents/CNresults/res';
+                opt.tmpDir = '~/Documents/CNresults/tmp';
                 opt.scratchdir = '';
-                
-            otherwise
-                error('The system %s is not configured. Add it to globalOpt to configure.', [opt.username, '@', opt.computer]);
+
+            % case 'ondrej@aviendha'
+            %     opt.resDir = '~/CNresults/res';
+            %     opt.tmpDir = '~/CNresults/tmp';
+            %     opt.scratchdir = '';
+            % 
+            % otherwise
+            %     error('The system %s is not configured. Add it to globalOpt to configure.', [opt.username, '@', opt.computer]);
 
         % *** TEMPLATES ***
 

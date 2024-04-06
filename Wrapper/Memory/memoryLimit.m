@@ -11,10 +11,12 @@ if ispc
     sts = memory();
     memLim = sts.MemAvailableAllArrays; % [Bytes]
 elseif isunix
-    sts = memoryunix();
-    memLim = sts.AvailableMemory * 1000; % [Bytes]
+    % sts = memoryunix();
+    % memLim = sts.AvailableMemory * 1000; % [Bytes]
+    memLim = inf;
 elseif ismac
-    error('not yet supproted');
+    % error('not yet supproted');
+    memLim = inf;
 end
 
 end

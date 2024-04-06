@@ -10,7 +10,7 @@
 % the previous calculations, so it is not necessary to recalculate the
 % mechanical and electrical responses of the cochlea.
 
-ncpus = 12;
+ncpus = 8;
 % ncpus = 3;
 
 fiber_properties = fiber_properties_0522();
