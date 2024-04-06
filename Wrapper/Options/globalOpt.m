@@ -95,6 +95,11 @@ classdef globalOpt < Opt
                 opt.tmpDir = '~/Documents/CNresults/tmp';
                 opt.scratchdir = '';
 
+            case 'LUBGIA-H103692@joslawre'
+                opt.resDir = '~/Documents/MATLAB/CNresults/res';
+                opt.tmpDir = '~/Documents/MATLAB/CNresults/tmp';
+                opt.scratchdir = '';
+
             % case 'ondrej@aviendha'
             %     opt.resDir = '~/CNresults/res';
             %     opt.tmpDir = '~/CNresults/tmp';
